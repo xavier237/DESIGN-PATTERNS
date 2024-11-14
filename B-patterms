@@ -1,0 +1,39 @@
+BEHAVIORAL PATTERNS FOR CUSTOMER RELATIONSHIP MANAGEMENT SYSTEM 
+
+
+Here’s how the 11 behavioral design patterns can be applied to a Customer Relationship Management (CRM) system:
+
+### 1. Chain of Responsibility
+**Usage**: To handle customer requests and queries. Each handler (e.g., support, sales, technical) processes the request or passes it along the chain.
+
+### 2. Command
+**Usage**: To encapsulate customer actions (like placing an order or updating information) as command objects. This allows for undo/redo features and queuing actions.
+
+### 3. Interpreter
+**Usage**: To interpret customer queries or commands. For instance, allowing customers to use natural language to search for information or generate reports.
+
+### 4. Iterator
+**Usage**: To iterate through collections of customers or interactions. This enables displaying customer lists or transaction histories seamlessly.
+
+### 5. Mediator
+**Usage**: To manage communication between different modules (e.g., sales, marketing, support) within the CRM, reducing dependencies and promoting loose coupling.
+
+### 6. Memento
+**Usage**: To save the state of customer records. This allows for restoring previous states of customer data, such as reverting changes made during an update.
+
+### 7. Observer
+**Usage**: To notify users (like sales representatives) of changes in customer status or interactions (e.g., when a customer opens an email or makes a purchase).
+
+### 8. State
+**Usage**: To manage the various states of a customer (e.g., new, active, inactive). This allows the system to behave differently based on the customer’s state.
+
+### 9. Strategy
+**Usage**: To define different marketing strategies for customer engagement. For example, the system could switch between email marketing, SMS, or social media strategies based on customer preferences.
+
+### 10. Template Method
+**Usage**: To define the skeleton of a process, such as customer onboarding, where the general steps are fixed but specific actions can vary based on customer type.
+
+### 11. Visitor
+**Usage**: To perform operations on customer data without changing the classes of the elements on which it operates. For instance, generating reports that analyze customer behavior across different segments.
+
+By applying these behavioral patterns, a CRM system can be made more flexible, maintainable, and responsive to user needs.
